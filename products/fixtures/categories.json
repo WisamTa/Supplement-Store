@@ -1,0 +1,61 @@
+[
+    {
+      "pk": 1,
+      "model": "products.category",
+      "fields": {
+        "name": "vitamin_b",
+        "friendly_name": "Vitamin B"
+      }
+    },
+    {
+      "pk": 2,
+      "model": "products.category",
+      "fields": {
+        "name": "vitamin_c",
+        "friendly_name": "Vitamin C"
+      }
+    },
+    {
+      "pk": 3,
+      "model": "products.category",
+      "fields": {
+        "name": "vitamin_d",
+        "friendly_name": "Vitamin D"
+      }
+    },
+    {
+      "pk": 4,
+      "model": "products.category",
+      "fields": {
+        "name": "vitamin_e",
+        "friendly_name": "Vitamin E"
+      }
+    },
+    {
+      "pk": 5,
+      "model": "products.category",
+      "fields": {
+        "name": "vegan_vitamins",
+        "friendly_name": "Vegan Vitamins"
+      }
+    },
+    {
+      "pk": 6,
+      "model": "products.category",
+      "fields": {
+        "name": "fish_oil_supplements",
+        "friendly_name": "Fish Oil Supplements"
+      }
+    },
+    {
+      "pk": 7,
+      "model": "products.category",
+      "fields": {
+        "name": "immune_system_supplements",
+        "friendly_name": "Immune System Supplements"
+      }
+    
+    
+    }
+    
+]
