@@ -8,8 +8,9 @@
       "price": 18.99,
       "category": 5,
       "rating": 4.6,
+      "ingredients": "Inulin (Fructo-Oligosaccharide), Synbalance Veganbiotic (Lactobacillus Bulgaricus, Bifidobacterium Bifidium, Bifidobacterium Infantis, Bifidobacterium Longum, Bifidobacterium Breve, Bifidobacterium Lactis, Lactobacillus Acidophilus, Lactobacillus Casei, Streptococcus Thermophilus, Lactobacillus Plantarum, Lactobacillus Salivarius, Lactobacillus Reuteri, Lactobacillus Rhamnosus, Lactobacillus Helveticus, Lactobacillus Fermentum, Lactobacillus Lactis), Capsule Shell (Hypromellose), Microcrystalline Cellulose, Magnesium Stearate, Silicon Dioxide.",
       "image_url": "https://i.imgur.com/TAWdBwD.jpg",
-      "image": "TVS0000034.jpg"
+      "image": "Veganbiotic.jpg"
     }
   },
   {
@@ -64,6 +65,7 @@
       "price": 17.99,
       "category": 5,
       "rating": 5,
+      "ingredients": "Vegan Digestive Enzyme Blend (Maltodextrin, Fungal Alpha-Amylase, Bromelain, Papain, Cellulase, Lipase, Hemicellulase) (Sulphur Dioxide), Capsule Shell (Hydroxypropyl Methyl Cellulose), Anti-Caking Agents (Magnesium Stearate, Silicon Dioxide",
       "image_url": "https://i.imgur.com/T9u4ubY.jpg",
       "image": "TVS0000030.jpg"
     }
@@ -106,6 +108,7 @@
       "price": 21.99,
       "category": 5,
       "rating": 4.5,
+      "ingredients": "Algal Oil, DHA Oil (Dmax® 400), Antioxidants (Mixed Tocopherols, Rosemary Extract, Ascorbyl Palmitate)), Softgel Shell (Modified Corn Starch, Humectant (Glycerol), Gelling Agent (Carrageenan), Acidity Regulator (Sodium Carbonate)).",
       "image_url": "https://i.imgur.com/JeQtLn8.jpg",
       "image": "TVS0000029.jpg"
     }
@@ -134,6 +137,7 @@
       "price": 13.99,
       "category": 7,
       "rating": 4.4,
+      "ingredients": "Calcium Carbonate, Bulking Agent (Microcrystalline Cellulose), Magnesium Oxide, Vitamin C (Ascorbic Acid), Citrus Bioflavonoids (35% Hesperidin), Green Tea Extract (95% Polyphenols), Choline Bitartrate, Lutein Preparation (Corn Starch, Tagetes erecta L. Extract), Grape Seed Extract (95% Polyphenols), Iron (Ferrous Fumerate), Anti-Caking Agent (Magnesium Stearate), Lycopene Preparation (Tomato Extract, Maltodextrin), Vitamin E (DL-Alpha Tocopherol Acetate), Coating (Hydroxypropyl Methyl Cellulose, Glycerin), Inositol, Quercetin, Anti-Caking Agent (Silicon Dioxide), Zinc Oxide, Niacin (Nicotinamide), Vitamin D3 Preparation (Maltodextrin, Starch, Sucrose, Cholecalciferol), Co Enzyme Q10 Pantothenic Acid (Calcium Pantothenate), Black Pepper Extract (95% Piperine), Vitamin A Preparation (Maltodextrin, Dextrin, Modified Starch, Vitamin A Acetate Oil, DL-Alpha Tocopherol), Lactobacillus Acidophilus, Vitamin K1 (Phylloquinone), Thiamin (Thiamin Hydrochloride), Riboflavin, Vitamin B6 (Pyridoxine Hydrochloride), Folic Acid, Chromium Chloride, D-Biotin, Sodium Selenite, Vitamin B12 (Cyanocobalamin).",
       "image_url": "https://i.imgur.com/mkyvOzt.jpg",
       "image": "TVS0000024.jpg"
     }
@@ -176,6 +180,7 @@
       "price": 13.99,
       "category": 5,
       "rating": 4.2,
+      "ingredients": "Bulking Agents (Microcrystalline Cellulose, Calcium Carbonate), Vegan Vitamin D3 (Vita-algae D®), Anti-Caking Agents (Silicon Dioxide, Magnesium Stearate).",
       "image_url": "https://i.imgur.com/eehs4Tz.jpg",
       "image": "TVS0000033.jpg"
     }
@@ -190,6 +195,7 @@
       "price": 26.99,
       "category": 5,
       "rating": 4.7,
+      "ingredients": " Microalgae oil (DHA and EPA), capsule material: (Water, modified starch, glycerin, sorbitol, caramel, carrageenan, beta-carotene), sunflower oil, tocopherols, natural flavour, sunflower lecithin, ascorbic acid ester (palmitine)",
       "image_url": "https://i.imgur.com/RcRcOrt.jpg",
       "image": "TVS0000032.jpg"
     }
