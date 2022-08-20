@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block page_header %}
+<div class="container header-container">
+    <div class="row">
+        <div class="col"></div>
+    </div>
+</div>
+{% endblock %}
+{% block content %}
+<div class="overlay"></div>
+<div class="container">
+    <!-- page heading -->
+    <div class="row">
+        <div class="col-12 col-md-6">
+            <hr>
+            <h2 class="logo-font mb-4">Contact</h2>
+            <!-- end page heading-->
+            <!-- page sub header-->
+            <h5 class="text-muted">Ask Us Anything</h5>
+            <hr>
+            <!-- end page sub header-->
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 col-md-6">
+            <form method="POST" action="{% url 'contact' %}" class="form mb-2">
+                {% csrf_token %}
+                {{ form|crispy }}
+                <!-- submit and cancel button-->
+                <div class="text-right">
+                    <a class="btn btn-outline-black rounded-0" href="{% url 'home' %}">Cancel</a>
+                    <button class="btn btn-black rounded-0" type="submit">Submit Query</button>
+                </div>
+                <!-- end submit and cancel button-->
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock %}
