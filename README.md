@@ -64,3 +64,43 @@ while allowing the user to have all the information they require, and not leave 
 * I want the admin to be able to edit a product.
 * I want the admin to be able to delete a product.
 * All these steps should be either using fixtures data or adding or delete manually 
+
+## Technologies Used
+### Languges<br>
+* [HTML5](https://en.wikipedia.org/wiki/HTML)
+* [CSS3](https://en.wikipedia.org/wiki/CSS)
+* [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+* [Pyhton3](https://www.python.org/)
+---
+### Frameworks and Libraries<br>
+* [jQuery](https://jquery.com/)  
+* [Bootstrap 4](https://getbootstrap.com/)
+* [Google Fonts](https://fonts.google.com/)
+* [Django](https://www.djangoproject.com/)
+* [Pip3](https://pip.pypa.io/en/stable/)
+* [Postgressql](https://www.postgresql.org/)
+* [FontAwesome](https://fontawesome.com/)
+---
+### All Others<br>
+* [Stripe](https://stripe.com/en-se)
+    * used for the payments system.
+* [GitHub](https://github.com/)
+    * GithHub is the hosting site used to store the source code for the Website.
+* [RandomKeygen](https://randomkeygen.com/)
+    * used to create a strong password for required (Secret Key).
+* [Git](https://git-scm.com/)
+    * Git is used as version control software to commit and push code to the GitHub repository where the source code is stored.
+* [Heroku](https://dashboard.heroku.com/apps)
+    * Heroku was used to deploy the live website.
+* [AWS](https://aws.amazon.com/)
+    * A cloud application to hold media files.
+* [Font Awesome](https://fontawesome.com/)
+    * All the Icons displayed throughout the website are Font Awesome icons.
+* [Favicon](https://favicon.io/)
+    * Favicon.io was used to make the site favicon. 
+* [Techsini](http://techsini.com/multi-mockup/index.php)
+    * Multi Device Website Mockup Generator was used to create the Mock up image in this README. 
+* [Privacy Policy](https://www.privacypolicygenerator.info/)
+    * used to generate a privacy policy.
+* [Lighthouse](https://developers.google.com/web/tools/lighthouse)
+    * Used for performance review.
