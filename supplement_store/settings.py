@@ -118,16 +118,17 @@ WSGI_APPLICATION = 'supplement_store.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
-#DATABASES = {
- #   'default': {
-#      'ENGINE': 'django.db.backends.sqlite3',
- #       'NAME': BASE_DIR / 'db.sqlite3',
-  #  }
-#}
-
-DATABASES = {
-    'default': dj_database_url.parse('postgres://nzbpqbhulbjuwx:def71dd19a676023460a011609e741f5c8e4d42e3984f92bb5718391ce2e8344@ec2-54-228-125-183.eu-west-1.compute.amazonaws.com:5432/d4q4tb70qoilkm')
-}
+if 'DATABASE_URL' in os.environ:
+    DATABASES = {
+        'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
+    }
+else:
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.sqlite3',
+            'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        }
+    }
 
 
 
