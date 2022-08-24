@@ -110,8 +110,8 @@
     "pk": 9,
     "model": "products.product",
     "fields": {
-      "sku": "imu8407440108",
-      "name": "Cal-sup-7-pil-",
+      "sku": "Cal-sup-7-pil-",
+      "name": "Calcium + Vitamin D3 + Vitamin K1 Capsules 1000mg",
       "description": "3 of the most popular bone health nutrients combined into a single capsule, at effective doses, in their most effective forms. Each capsule provides 200mg of calcium, 1000iu of vitamin D3 and 50mcg of vitamin K1.",
       "price": 11.99,
       "category": 7,
