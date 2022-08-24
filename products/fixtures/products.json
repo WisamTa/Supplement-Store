@@ -1,15 +1,15 @@
-[{
+[
+  {
     "pk": 1,
     "model": "products.product",
     "fields": {
-      "sku": "imu8407440100",
+      "sku": "Veg-sup-veg-pil-",
       "name": "Veganbiotic",
       "description": "A unique multi-strain formula of 16 live cultures, combined with inulin. Provides an ideal dose of vegan-friendly live cultures in a convenient 2 capsule serving, including Lactobacillus and Bifidobacterium strains.",
       "price": 18.99,
       "category": 5,
       "rating": 4.6,
       "ingredients": "Inulin (Fructo-Oligosaccharide), Synbalance Veganbiotic (Lactobacillus Bulgaricus, Bifidobacterium Bifidium, Bifidobacterium Infantis, Bifidobacterium Longum, Bifidobacterium Breve, Bifidobacterium Lactis, Lactobacillus Acidophilus, Lactobacillus Casei, Streptococcus Thermophilus, Lactobacillus Plantarum, Lactobacillus Salivarius, Lactobacillus Reuteri, Lactobacillus Rhamnosus, Lactobacillus Helveticus, Lactobacillus Fermentum, Lactobacillus Lactis), Capsule Shell (Hypromellose), Microcrystalline Cellulose, Magnesium Stearate, Silicon Dioxide.",
-      "image_url": "https://i.imgur.com/TAWdBwD.jpg",
       "image": "TVS0000034.jpg"
     }
   },
@@ -17,13 +17,12 @@
     "pk": 2,
     "model": "products.product",
     "fields": {
-      "sku": "imu8407440101",
+      "sku": "Bon-sup-7-pil-",
       "name": "Bone Health Capsules",
       "description": "The adult skeleton contains 206 bones, which are primarily composed of minerals and Type 1 collagen, Bone Health Capsules provide a synergistic combination of 13 active ingredients, including vitamins, minerals and plant extracts.",
       "price": 28.99,
       "category": 7,
       "rating": 4.6,
-      "image_url": "https://i.imgur.com/JVGpDe2.jpg",
       "image": "TVS0000018.jpg"
     }
   },
@@ -31,13 +30,12 @@
     "pk": 3,
     "model": "products.product",
     "fields": {
-      "sku": "imu8407440102",
+      "sku": "Cod-sup-6-pil-",
       "name": "Cod Liver Oil Softgels",
       "description": "Potently dosed cod liver oil supplements, providing 90mg of DHA and 80mg of EPA in a single softgel, plus vitamin A and vitamin D. Cod liver oil is a source of omega 3 fatty acids, one of the groups of essential fatty acids that can't be produced by your body, and therefore must be obtained through your diet or nutritional supplements.",
       "price": 8.99,
       "category": 6,
       "rating": 4.7,
-      "image_url": "https://i.imgur.com/eUXqInm.jpg",
       "image": "TVS0000003.jpg"
     }
   },
@@ -45,13 +43,12 @@
     "pk": 4,
     "model": "products.product",
     "fields": {
-      "sku": "imu8407440103",
+      "sku": "BVi-sup-1-pil-",
       "name": "B Vitamin Complex Tablets",
       "description": "Every single essential B vitamin compiled into a single, easy tablet, providing your complete recommended intake alongside a selection of additional nutrients. B vitamins are some of the most vital vitamins in your diet, supporting a whole range of bodily processes. This simple tablet supplement helps you get your daily dosage every day.",
       "price": 9.99,
       "category": 1,
       "rating": 3,
-      "image_url": "https://i.imgur.com/OuFJe8f.jpg",
       "image": "TVS0000017.jpg"
     }
   },
@@ -59,14 +56,13 @@
     "pk": 5,
     "model": "products.product",
     "fields": {
-      "sku": "imu8407440104",
+      "sku": "Veg-sup-veg-pil-",
       "name": "Vegan Digestive Enzymes",
       "description": "A comprehensive blend of 6 vegan-friendly digestive enzymes in a convenient capsule to assist in digestion of proteins, carbs, fats, sugars and plant fibres, tailored to the requirements of plant-based diets. Digestive enzymes are a group of enzymes that aid your body in breaking down different types of food. Our Vegan Digestive Enzymes capsules are specially formulated for vegan diets, with high doses of digestive enzymes that aid in breaking down plant cell walls and fibres.",
       "price": 17.99,
       "category": 5,
       "rating": 5,
       "ingredients": "Vegan Digestive Enzyme Blend (Maltodextrin, Fungal Alpha-Amylase, Bromelain, Papain, Cellulase, Lipase, Hemicellulase) (Sulphur Dioxide), Capsule Shell (Hydroxypropyl Methyl Cellulose), Anti-Caking Agents (Magnesium Stearate, Silicon Dioxide",
-      "image_url": "https://i.imgur.com/T9u4ubY.jpg",
       "image": "TVS0000030.jpg"
     }
   },
@@ -74,13 +70,12 @@
     "pk": 6,
     "model": "products.product",
     "fields": {
-      "sku": "imu8407440105",
+      "sku": "Chr-sup-7-pil-",
       "name": "Chromium Picolinate Tablets 250mcg",
       "description": "Premium chromium and picolinic acid in a convenient tablet form, providing a massive 250mcg dose in a single tablet. Chromium is an essential trace mineral, meaning your body requires small amounts in your diet for normal health. Our Chromium Picolinate Tablets provide a massive 250mcg dose in a single tablet.",
       "price": 8.99,
       "category": 7,
       "rating": 4.7,
-      "image_url": "https://i.imgur.com/gaYWNgN.jpg",
       "image": "TVS0000022.jpg"
     }
   },
@@ -88,13 +83,12 @@
     "pk": 7,
     "model": "products.product",
     "fields": {
-      "sku": "imu8407440106",
+      "sku": "Vit-sup-2-pil-",
       "name": "Vitamin C Tablets",
       "description": "High strength vitamin C in a convenient, one-a-day tablet form, providing 1250% of your recommended intake. Vitamin C is one of the most important nutrients in your daily diet. Our Vitamin C Tablets 1000mg are a specific, high strength form of vitamin C, which promotes normal function of the immune system and contributes to the protection of cells from oxidative stress.",
       "price": 7.99,
       "category": 2,
       "rating": 4.4,
-      "image_url": "https://i.imgur.com/ziIfKNL.jpg",
       "image": "TVS0000015.jpg"
     }
   },
@@ -102,14 +96,13 @@
     "pk": 8,
     "model": "products.product",
     "fields": {
-      "sku": "imu8407440107",
+      "sku": "Veg-sup-veg-pil-",
       "name": "Vegan Super Strength Omega 3 Softgels",
       "description": "When it comes to getting your necessary omega 3s, the mind tends to drift towards fish oils, specifically the essential fatty acids eicosapentaenoic acid (EPA) and docosahexaenoic Acid (DHA). For decades, fish oil has been the primary source of these healthy fatty acids. Vegan Super Strength Omega 3 Softgels are incredibly convenient to use. Just take 2 capsules daily, preferably with food.",
       "price": 21.99,
       "category": 5,
       "rating": 4.5,
       "ingredients": "Algal Oil, DHA Oil (Dmax® 400), Antioxidants (Mixed Tocopherols, Rosemary Extract, Ascorbyl Palmitate)), Softgel Shell (Modified Corn Starch, Humectant (Glycerol), Gelling Agent (Carrageenan), Acidity Regulator (Sodium Carbonate)).",
-      "image_url": "https://i.imgur.com/JeQtLn8.jpg",
       "image": "TVS0000029.jpg"
     }
   },
@@ -118,12 +111,11 @@
     "model": "products.product",
     "fields": {
       "sku": "imu8407440108",
-      "name": "Calcium + Vitamin D3 + Vitamin K1 Capsules 1000mg",
+      "name": "Cal-sup-7-pil-",
       "description": "3 of the most popular bone health nutrients combined into a single capsule, at effective doses, in their most effective forms. Each capsule provides 200mg of calcium, 1000iu of vitamin D3 and 50mcg of vitamin K1.",
       "price": 11.99,
       "category": 7,
       "rating": 4.7,
-      "image_url": "https://i.imgur.com/TaUCe3h.jpg",
       "image": "TVS0000019.jpg"
     }
   },
@@ -131,14 +123,13 @@
     "pk": 10,
     "model": "products.product",
     "fields": {
-      "sku": "imu8407440109",
+      "sku": "Com-sup-7-pil-",
       "name": "Complete Multivitamin Complex",
       "description": " Our Multivitamin Complex™ is the ultimate multivitamin supplement for active lifestyles. The 30 plus active ingredients in each supplement contribute to normal energy metabolism, immune system function and amino acid synthesis, complementing your diet with a full nutritional profile.",
       "price": 13.99,
       "category": 7,
       "rating": 4.4,
       "ingredients": "Calcium Carbonate, Bulking Agent (Microcrystalline Cellulose), Magnesium Oxide, Vitamin C (Ascorbic Acid), Citrus Bioflavonoids (35% Hesperidin), Green Tea Extract (95% Polyphenols), Choline Bitartrate, Lutein Preparation (Corn Starch, Tagetes erecta L. Extract), Grape Seed Extract (95% Polyphenols), Iron (Ferrous Fumerate), Anti-Caking Agent (Magnesium Stearate), Lycopene Preparation (Tomato Extract, Maltodextrin), Vitamin E (DL-Alpha Tocopherol Acetate), Coating (Hydroxypropyl Methyl Cellulose, Glycerin), Inositol, Quercetin, Anti-Caking Agent (Silicon Dioxide), Zinc Oxide, Niacin (Nicotinamide), Vitamin D3 Preparation (Maltodextrin, Starch, Sucrose, Cholecalciferol), Co Enzyme Q10 Pantothenic Acid (Calcium Pantothenate), Black Pepper Extract (95% Piperine), Vitamin A Preparation (Maltodextrin, Dextrin, Modified Starch, Vitamin A Acetate Oil, DL-Alpha Tocopherol), Lactobacillus Acidophilus, Vitamin K1 (Phylloquinone), Thiamin (Thiamin Hydrochloride), Riboflavin, Vitamin B6 (Pyridoxine Hydrochloride), Folic Acid, Chromium Chloride, D-Biotin, Sodium Selenite, Vitamin B12 (Cyanocobalamin).",
-      "image_url": "https://i.imgur.com/mkyvOzt.jpg",
       "image": "TVS0000024.jpg"
     }
   },
@@ -146,13 +137,12 @@
     "pk": 11,
     "model": "products.product",
     "fields": {
-      "sku": "imu8407440110",
+      "sku": "Sup-sup-6-pil-",
       "name": "Super Strength Omega 3 1000mg",
       "description": "High purity omega 3 softgel capsules, packed with a powerful 330mg of EPA and 220mg of DHA per dose, promoting normal function of the heart. As the name suggests, these Super Strength Omega 3 Softgels are loaded with essential fatty acids (EFAs) that you can only obtain from food or supplements. They offer a higher EFA content than typical omega 3 supplements.",
       "price": 15.99,
       "category": 6,
       "rating": 5,
-      "image_url": "https://i.imgur.com/L0vIDu8.jpg",
       "image": "TVS0000012.jpg"
     }
   },
@@ -160,13 +150,12 @@
     "pk": 12,
     "model": "products.product",
     "fields": {
-      "sku": "imu8407440111",
+      "sku": "Kri-sup-6-pil-",
       "name": "Krill Oil Softgels 500mg",
       "description": "A potent source of omega 3 essential fatty acids, these are essential because your body can't produce them on its own. You have to obtain them from your diet or nutritional supplements. This Krill Oil is extracted from Euphausia Superba krill, which live deep in the Antarctic waters of the Southern Ocean. They're rich in the Omega 3 fatty acids eicosapentaenoic acid (EPA) and docosahexaenoic acid (DHA), and free from contaminants such as heavy metals or pesticides.",
       "price": 17.99,
       "category": 6,
       "rating": 4.6,
-      "image_url": "https://i.imgur.com/Hq7REa4.jpg",
       "image": "TVS0000002.jpg"
     }
   },
@@ -174,14 +163,13 @@
     "pk": 13,
     "model": "products.product",
     "fields": {
-      "sku": "imu8407440112",
+      "sku": "Veg-sup-veg-pil-",
       "name": "Vegan Vitamin D3 Tablets",
       "description": "Vegan-friendly, plant-sourced vitamin D in a simple, one-a-day tablet, providing 2500IU of vitamin D3 to support muscle function, normal bones, immune system function and cell division activity.",
       "price": 13.99,
       "category": 5,
       "rating": 4.2,
       "ingredients": "Bulking Agents (Microcrystalline Cellulose, Calcium Carbonate), Vegan Vitamin D3 (Vita-algae D®), Anti-Caking Agents (Silicon Dioxide, Magnesium Stearate).",
-      "image_url": "https://i.imgur.com/eehs4Tz.jpg",
       "image": "TVS0000033.jpg"
     }
   },
@@ -189,14 +177,13 @@
     "pk": 14,
     "model": "products.product",
     "fields": {
-      "sku": "imu8407440113",
+      "sku": "Veg-sup-veg-pil-",
       "name": "Vegan Omega 3 6 9",
       "description": "Groundbreaking Vegan Omega 3 6 9 softgels, providing vegan-friendly omega 3, omega 6 and omega 9 fatty acids it's a 100% plant-based source.",
       "price": 26.99,
       "category": 5,
       "rating": 4.7,
       "ingredients": " Microalgae oil (DHA and EPA), capsule material: (Water, modified starch, glycerin, sorbitol, caramel, carrageenan, beta-carotene), sunflower oil, tocopherols, natural flavour, sunflower lecithin, ascorbic acid ester (palmitine)",
-      "image_url": "https://i.imgur.com/RcRcOrt.jpg",
       "image": "TVS0000032.jpg"
     }
   },
@@ -204,13 +191,12 @@
     "pk": 15,
     "model": "products.product",
     "fields": {
-      "sku": "imu8407440114",
+      "sku": "Ome-sup-6-pil-",
       "name": "Omega 3 Fish Oil Softgels 1000mg",
       "description": "Premium omega 3 fish oil supplements, providing 180mg of EPA and 120mg of DHA per softgel higher than most other fish oil products, contributing to normal heart function*. Our Omega 3 Fish Oil Softgels provide you with a healthy hit of essential fatty acids, which can only be obtained from food or supplements. These Omega 3 Fish Oil Softgels contain a combination of eicosapentaenoic acid (EPA) and docosahexaenoic acid (DHA), two essential fatty acids that can't be produced by the human body.",
       "price": 8.99,
       "category": 6,
       "rating": 4.8,
-      "image_url": "https://i.imgur.com/sbXGJWq.jpg",
       "image": "TVS0000008.jpg"
     }
   },
@@ -218,13 +204,12 @@
     "pk": 16,
     "model": "products.product",
     "fields": {
-      "sku": "imu8407440115",
+      "sku": "Vit-sup-6-pil-",
       "name": "Vitamin B12 Tablets 1000mcg",
       "description": "High strength vitamin B12 in a convenient tablet form, providing 40,000% of your reference intake in a single, potently dosed supplement. Vitamin B12 Tablets 1000mcg are a specific, high-strength form of vitamin B12, which promotes normal function of the immune system and contributes to the reduction of tiredness and fatigue.",
       "price": 6.99,
       "category": 1,
       "rating": 4.4,
-      "image_url": "https://i.imgur.com/qbOHif6.jpg",
       "image": "TVS0000013.jpg"
     }
   },
@@ -232,13 +217,12 @@
     "pk": 17,
     "model": "products.product",
     "fields": {
-      "sku": "imu8407440116",
+      "sku": "Opt-sup-7-pil-",
       "name": "OptiZinc Tablets",
       "description": "Zinc in its most bioavailable form, providing 30mg in a convenient tablet, contributing to the maintenance of normal test levels, healthy skin and normal protein synthesis. Zinc is an essential mineral commonly found in foods such as beef, peanuts and oysters. OptiZinc tablets provide zinc in its most bioavailable form, ready for your body to absorb.",
       "price": 9.99,
       "category": 7,
       "rating": 4.4,
-      "image_url": "https://i.imgur.com/xAsrvZs.jpg",
       "image": "TVS0000009.jpg"
     }
   },
@@ -246,13 +230,12 @@
     "pk": 18,
     "model": "products.product",
     "fields": {
-      "sku": "imu8407440117",
+      "sku": "Veg-sup-5-pil-",
       "name": "Vegan Multivitamin Complex",
       "description": "Vegan Multivitamin Complex is designed with our vegan customers in mind. Vegan Multivitamin Complex provides a blend of 20 vitamins, minerals, extracts and live cultures, designed to meet the needs of any active lifestyle.Vegan Multivitamin Complex features ingredients that contribute to normal energy metabolism, immune system function, bone function and amino acid synthesis.",
       "price": 15.99,
       "category": 5,
       "rating": 4.8,
-      "image_url": "https://i.imgur.com/qu0fHxC.jpg",
       "image": "TVS0000031.jpg"
     }
   },
@@ -260,13 +243,12 @@
     "pk": 19,
     "model": "products.product",
     "fields": {
-      "sku": "imu8407440118",
+      "sku": "Mag-sup-7-pil-",
       "name": "Magnesium Bisglycinate Tablets",
       "description": "Highly effective magnesium tablets, offered in its most premium, bioavailable form, providing a massive 500mg of magnesium bisglycinate (100mg active magnesium) in a single dose. Magnesium contributes to normal protein synthesis, energy yielding metabolism and bone maintenance. Magnesium Bisglycinate tablets provide your daily dose in one easy, convenient tablet.",
       "price": 9.99,
       "category": 7,
       "rating": 4.9,
-      "image_url": "https://i.imgur.com/Fd8uJNJ.jpg",
       "image": "TVS0000006.jpg"
     }
   },
@@ -274,13 +256,12 @@
     "pk": 20,
     "model": "products.product",
     "fields": {
-      "sku": "imu8407440119",
+      "sku": "Ome-sup-6-pil-",
       "name": "Omega 3 6 9 Softgels 1000mg",
       "description": "Omega 3 6 9 Softgels 1000mg is a fatty acid supplement, providing potent doses of omega 3, omega 6 and omega 9 fatty acids in a single, convenient softgel. Omega 3, 6 and 9 fatty acids are essential fatty acids (EFAs). That means your body can't produce them, and they can only be obtained through the diet. Our Omega 3 6 9 Softgels 1000mg contain a combination of omega 3 fish oil, flaxseed oil and sunflower oil to provide a potent dose of omega 3, 6 and 9 in a single supplement.",
       "price": 11.99,
       "category": 6,
       "rating": 4.7,
-      "image_url": "https://i.imgur.com/hleQD3X.jpg",
       "image": "TVS0000007.jpg"
     }
   },
@@ -288,13 +269,12 @@
     "pk": 21,
     "model": "products.product",
     "fields": {
-      "sku": "imu8407440120",
+      "sku": "DAs-sup-7-pil-",
       "name": "D Aspartic Acid Capsules 750mg",
       "description": "D aspartic acid in a convenient capsule form, combined with zinc to contribute to normal immune system function, protein synthesis and macronutrient metabolism. D aspartic acid is the D-form of the amino acid aspartic acid, produced naturally in the body from the non-essential amino acid l-aspartic acid.",
       "price": 18.99,
       "category": 7,
       "rating": 4.3,
-      "image_url": "https://i.imgur.com/htCdCqg.jpg",
       "image": "TVS0000021.jpg"
     }
   },
@@ -302,13 +282,12 @@
     "pk": 22,
     "model": "products.product",
     "fields": {
-      "sku": "imu8407440121",
+      "sku": "Sup-sup-6-pil-",
       "name": "Super Strength Krill Oil Softgels",
       "description": "A potent source of omega 3 essential fatty acids, free from contaminants, and at an incredible price. These super strength softgels provide an incredible 318mg of omega 3 fatty acids in daily serving. Omega 3 essential fatty acids are essential because your body can't produce them on its own, you have to obtain them from your diet or nutritional supplements. These Super Strength Krill Oil Softgels use oil extracted from Antarctic krill.",
       "price": 26.99,
       "category": 6,
       "rating": 4.5,
-      "image_url": "https://i.imgur.com/MJZjxE8.jpg",
       "image": "TVS0000011.jpg"
     }
   },
@@ -316,13 +295,12 @@
     "pk": 23,
     "model": "products.product",
     "fields": {
-      "sku": "imu8407440122",
+      "sku": "Vit-sup-3-pil-",
       "name": "Vitamin D3 Tablets 100μg (4000IU)",
       "description": "High strength vitamin D tablets, provided in a highly bioavailable form, providing 2000% of your recommended intake per tablet. Vitamin D3 Tablets are a specific, high-strength form of vitamin D, which promotes normal bone health and contributes to the maintenance of healthy immune function, as well as playing a role in cell division.",
       "price": 7.99,
       "category": 3,
       "rating": 4.4,
-      "image_url": "https://i.imgur.com/CfcxS0m.jpg",
       "image": "TVS0000014.jpg"
     }
   },
@@ -330,13 +308,12 @@
     "pk": 24,
     "model": "products.product",
     "fields": {
-      "sku": "imu8407440123",
+      "sku": "Lac-sup-7-pil-",
       "name": "Lactase Tablets 5000 FCC",
       "description": "High dose lactase tablet supplements to aid digestion of lactose, providing more active ingredients per tablet than the majority of competing products. Lactose is a simple sugar most commonly found in milk and dairy products. Many people struggle to digest lactose, which can create challenges if you want to supplement with dairy-sourced nutrition like whey protein. Lactase Tablets 5000 FCC provide a high dose of lactase, the digestive enzyme that helps the body to break down lactose.",
       "price": 11.99,
       "category": 7,
       "rating": 4.8,
-      "image_url": "https://i.imgur.com/bz9vSYM.jpg",
       "image": "TVS0000005.jpg"
     }
   },
@@ -344,13 +321,12 @@
     "pk": 25,
     "model": "products.product",
     "fields": {
-      "sku": "imu8407440124",
+      "sku": "Vit-sup-4-pil-",
       "name": "Vitamin E Softgels 400iu",
       "description": "Vitamin E is a fat soluble vitamin commonly found in foods such as spinach, asparagus and almonds. These Vitamin E Softgels provide a potent 400iu dosage in a convenient softgel, equivalent to 420mg. Our potently dosed Vitamin E Softgels, providing 400iu of premium vitamin E per capsule in its DL alpha tocopherol form, contributing to protection of cells from oxidative stress.",
       "price": 10.99,
       "category": 4,
       "rating": 4.5,
-      "image_url": "https://i.imgur.com/XoBQKUh.jpg",
       "image": "TVS0000016.jpg"
     }
   },
@@ -358,16 +334,13 @@
     "pk": 26,
     "model": "products.product",
     "fields": {
-      "sku": "imu8407440125",
+      "sku": "Iro-sup-7-pil-",
       "name": "Iron Capsules 20mg",
       "description": "Premium iron supplement using highly bioavailable ferrous bisglycinate from K-Pure, providing 5mg of iron in a single capsule serving. Iron is an important mineral in any healthy diet, contributing to normal transport of oxygen through the blood, as well as helping to reduce tiredness and fatigue. This supplement uses ferrous bisglycinate, a highly bioavailable form of Iron often referred to as a 'gentle Iron' to give you the best possible nutrition in a single capsule.",
       "price": 13.99,
       "category": 7,
       "rating": 4.4,
-      "image_url": "https://i.imgur.com/ExpjBqb.jpg",
       "image": "TVS0000001.jpg"
     }
-  
- }
- 
+  }
 ]
