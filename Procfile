@@ -1,1 +1,1 @@
-web: gunicorn Supplement-Store.wsgi:application
+web: gunicorn supplement-store1.wsgi:application
