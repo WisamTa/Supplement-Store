@@ -11,20 +11,20 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 import os
 import dj_database_url
-from pathlib import Path
+
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
-BASE_DIR = Path(__file__).resolve().parent.parent
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-c9z##1i(m5q=g#94p_#n1f8qa94un6306nzvmm=5tmc@(sh-_o'
+SECRET_KEY = os.environ.get('SECRET_KEY', '9_+bw@n#7k(^(!(sp6^o%s+$xzcr^*z*yr)+@$@2@!5ux+e1tb')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = 'DEVELOPMENT' in os.environ
 
 ALLOWED_HOSTS = ['supplement-store1.herokuapp.com', 'localhost']
 
