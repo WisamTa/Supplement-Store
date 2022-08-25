@@ -4,7 +4,7 @@ asgiref==3.5.2
 async-timeout==4.0.2
 auditlog3==1.0.1
 backports.zoneinfo==0.2.1
-dj-database-url==1.0.0
+dj-database-url==0.5.0
 dj-stripe==2.6.2
 Django==3.2
 django-allauth==0.41.0
