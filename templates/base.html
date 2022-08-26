@@ -14,8 +14,8 @@
     {% endblock %}
     {% block corecss %}
          <!-- bootstarp CSS -->
-         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">         <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato&family=Montserrat:wght@100&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="{% static 'css/base.css' %}">
@@ -34,18 +34,17 @@
         <script src="https://kit.fontawesome.com/ec3f09227b.js" crossorigin="anonymous"></script>
         <!-- Fontawsome kit -->
         <!-- JQuery, Popper.js, Bootstrap JS -->
-        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-                 <!-- end JQuery, Popper.js, Bootstrap JS -->
-         <!-- Stripe -->
-        <script src="https://js.stripe.com/v3/"></script>
+         <!-- end JQuery, Popper.js, Bootstrap JS -->
         <!-- stripe -->
-
+        <script src="https://js.stripe.com/v3/"></script>
+         <!-- Stripe -->
     {% endblock %}
     {% block extra_js %}
     {% endblock %}
-    <title>Supplement Store {% block extra_title %}{% endblock %}</title>
+    <title>The Vitamin Store {% block extra_title %}{% endblock %}</title>
 </head>
 <body>
     <!-- logo -->
@@ -53,7 +52,7 @@
         <div id="topnav" class="row bg-white pt-lg-2 d-none d-lg-flex">
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 text-center text-lg-left">
                 <a href="{% url 'home' %}" aria-label="logo home link" class="nav-link main-logo-link">
-                    <h2 class="logo-font text-primary my-0">Supplement Store</h2>
+                    <h2 class="logo-font text-black my-0"><strong>The Vitamin</strong> Store</h2>
                 </a>
             </div>
              <!-- end logo -->
@@ -61,9 +60,9 @@
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
                 <form method="GET"  action="{% url 'products' %}">
                     <div class="input-group w-100">
-                        <input class="form-control border border-light rounded-0" aria-label="search form" type="text" name="q" placeholder="Search our site">
+                        <input class="form-control border border-black rounded-0" aria-label="search form" type="text" name="q" placeholder="Search our site">
                         <div class="input-group-append">
-                            <button class="form-control btn btn-light border border-light rounded-0" aria-label="submit search" type="submit">
+                            <button class="form-control btn btn-black border border-black rounded-0" aria-label="submit search" type="submit">
                                 <span class="icon">
                                     <i class="fas fa-search"></i>
                                 </span>
@@ -132,7 +131,7 @@
        </div>
        <!-- banner -->
        <div id="delivery-banner" class="row text-center">
-           <div class="col bg-success text-white">
+           <div class="col bg-black text-white">
                <h4 class="logo-font my-1">Free delivery on orders over €{{ free_delivery_threshold }}!</h4>                
            </div> 
             <!-- end banner -->           
