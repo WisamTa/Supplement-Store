@@ -298,3 +298,7 @@ AWS_S3_OBJECT_PARAMETERS = {
 
 [Back to top ⇧](#supplemet-store1)
 
+# Stripe Payments
+
+To handle payments within the website ensure that you have set this up a guide on how this can be done can be found [here](https://stripe.com/docs/payments/accept-a-payment#web-collect-card-details).
+
