@@ -234,7 +234,7 @@ The deployed site uses AWS S3 Buckets to store the webpages static and media fil
 13. Once saved, scroll down to the **Access Control List (ACL)** and click **Edit**.
 14. Next to **Everyone (public access)**, check the **list** checkbox and save your changes.
 
-[Back to top ⇧](#ginamore)
+[Back to top ⇧](#Supplement-Store1)
 
 # IAM
 
