@@ -310,6 +310,52 @@ AWS_S3_OBJECT_PARAMETERS = {
 
 [Back to top ⇧](#supplemet-store1)
 
+#### GMail Client
+
+In `settings.py` change the `DEFAULT_FROM_EMAIL` to your own email address.
+
+1. Go to your Gmail account and navigate to the `Settings` tab.
+2. Go to `Accounts and Imports`, `Other Google Account Settings`.
+3. Go to the `Security` tab, and scroll down to `Signing in to Google`.
+4. If required, click to turn on `2-step Verification`, then `Get Started`, and enter your password.
+5. Verify using your preferred method, and turn on 2-step verification.
+6. Go back to `Security`, `Signing in to Google`, then go to `App Passwords`.
+7. Enter your password again if prompted, then set `App` to `Mail`, `Device` to `Other`, and type in `Django`.
+8. Copy and paste the passcode that shows up, this is your `EMAIL_HOST_PASS` variable to add to your environment/config variables. `EMAIL_HOST_USER` is the Gmail email address.
+
+### Config Vars
+
+The config/environment variables should be set up as follows:
+
+| Key                    | Value                      |
+| ---------------------- |--------------------------- |
+| PORT                   | 8000                       |
+| IP                     | 0.0.0.0                    |
+| SECRET_KEY             | YOUR_SECRET_KEY            |
+| STRIPE_PUBLIC_KEY      | STRIPE_PUBLIC_KEY          |
+| STRIPE_SECRET_KEY      | YOUR_STRIPE_SECRET_KEY     |
+| STRIPE_WH_SECRET       | STRIPE_WEBHOOKS_KEY        |
+| DATABASE_URL           | YOUR_POSTGRES_URL          |
+| AWS_ACCESS_KEY_ID      | YOUR_AWS_ACCESS_KEY_ID     |
+| AWS_SECRET_ACCESS_KEY  | YOUR_AWS_SECRET_ACCESS_KEY |   
+| USE_AWS                | True                       |
+| EMAIL_HOST_PASS        | YOUR_EMAIL_HOST_PASSCODE   |
+| EMAIL_HOST_USER        | YOUR_EMAIL_HOST_USERNAME   |
+
+#### Where to find Config Var Key-value Pairs 
+
+To find the values of each key:
+
+* `SECRET_KEY:` This is a random string provided when creating the Django project and can easily be changed to ensure extra security. 
+* `DATABASE_URL:` This is temporary.
+* `STRIPE_PUBLIC_KEY:` Retrieved from Stripe Dashboard in the Developer's API section (Publishable key).
+* `STRIPE_SECRET_KEY:` Retrieved from Stripe Dashboard in the Developer's API section (Secret key)
+* `STRIPE_WH_SECRET:` Retrieved from Stripe Dashboard in the Developer's after creating an endpoint for your webhook (Signing secret).
+* `EMAIL_HOST_USER:` Your email address or username.
+* `EMAIL_HOST_PASS:` Your passcode from your email client.
+* `AWS_SECRET_ACCESS_KEY`: From the CSV file that you download having created a User in Amazon AWS S3.
+* `AWS_ACCESS_KEY_ID:` From the CSV file that you download having created a User in Amazon AWS S3.
+
 # Stripe Payments
 
 To handle payments within the website ensure that you have set this up a guide on how this can be done can be found [here](https://stripe.com/docs/payments/accept-a-payment#web-collect-card-details).
