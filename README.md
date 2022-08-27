@@ -71,38 +71,43 @@ A simplistic favicon was created in the shape of a gin bottle, using simple line
 
 ![Favicon Icon](https://github.com/WisamTa/Supplement-Store/blob/main/static/favicon/android-chrome-512x512.png)
 
-## Technologies Used
-### Languges<br>
-* [HTML5](https://en.wikipedia.org/wiki/HTML)
-* [CSS3](https://en.wikipedia.org/wiki/CSS)
-* [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
-* [Pyhton3](https://www.python.org/)
+## TECHNOLOGIES
+
+### LANGUAGES
+
 <img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-plain-wordmark.svg" alt="HTML logo" width="50px" height="50px" /> <img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-plain-wordmark.svg" alt="CSS logo" width="50px" height="50px" /> <img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" alt="JavaScript logo" width="50px" height="50px" /> <img src="https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg" alt="Python logo" width="50px" height="50px" /> 
----
-### Frameworks and Libraries<br>
-* [jQuery](https://jquery.com/)  
-* [Bootstrap 4](https://getbootstrap.com/)
-* [Google Fonts](https://fonts.google.com/)
-* [Django](https://www.djangoproject.com/)
-* [Pip3](https://pip.pypa.io/en/stable/)
-* [Postgressql](https://www.postgresql.org/)
-* [FontAwesome](https://fontawesome.com/)
----
-### All Others<br>
-* [Stripe](https://stripe.com/en-se)
-    * used for the payments system.
-* [GitHub](https://github.com/)
-    * GithHub is the hosting site used to store the source code for the Website.
-* [RandomKeygen](https://randomkeygen.com/)
-    * used to create a strong password for required (Secret Key).
-* [Git](https://git-scm.com/)
-    * Git is used as version control software to commit and push code to the GitHub repository where the source code is stored.
-* [Heroku](https://dashboard.heroku.com/apps)
-    * Heroku was used to deploy the live website.
-* [AWS](https://aws.amazon.com/)
-    * A cloud application to hold media files.
-* [Font Awesome](https://fontawesome.com/)
-    * All the Icons displayed throughout the website are Font Awesome icons.
+
+## FRAMEWORKS AND LIBRARIES
+<img src="https://github.com/devicons/devicon/blob/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="Bootstrap logo" height="50px" width="50px" /> <img src="https://github.com/devicons/devicon/blob/master/icons/django/django-plain.svg" alt="Django logo" width="50px" height="50px" />
+
+### PROGRAMS
+
+<img src="https://github.com/devicons/devicon/blob/master/icons/git/git-plain-wordmark.svg" alt="Git logo" width="50px" height="50px" />
+
+[Git](https://git-scm.com/) was used for version control by using the Gitpod terminal to add and commit to Git and push to Github.
+
+<img src="https://github.com/devicons/devicon/blob/master/icons/github/github-original-wordmark.svg" alt="GitHub logo" width="50px" height="50px" />
+
+[GitHub](https://github.com/) was used to store all the code for this project after being pushed from GitPod, which I also used a Project board to 
+keep track of the project development by splitting tasks into smaller and more managable sections.
+
+<img src="https://github.com/devicons/devicon/blob/master/icons/heroku/heroku-original-wordmark.svg" alt="Heroku logo" width="50px" height="50px" />
+
+[Heroku](https://id.heroku.com) was used for deployment of the live site.
+
+<img src="https://github.com/devicons/devicon/blob/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="AWS logo" width="50px" height="50px" />
+
+[AWS](https://aws.amazon.com/) was used for storing static files and media images for this project.
+
+<img src="https://github.com/devicons/devicon/blob/master/icons/firefox/firefox-original-wordmark.svg" alt="Firefox logo" width="50px" height="50px" />
+
+[Firefox Developer](https://www.mozilla.org/en-GB/firefox/developer/) Tools was used for troubleshooting and trying new visual changes without it affecting the current code.
+
+### Other
+
+#### GitPod
+
+[GitPod](https://gitpod.io) was used as an IDE whilst coding this site.
 * [Favicon](https://favicon.io/)
     * Favicon.io was used to make the site favicon. 
 * [Techsini](http://techsini.com/multi-mockup/index.php)
