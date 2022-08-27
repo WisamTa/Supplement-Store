@@ -106,3 +106,45 @@ while allowing the user to have all the information they require, and not leave 
     * Used for performance review.
 * [L3dsellers](https://www.3dsellers.com/)
     * Sku Generater
+
+# Deployment
+
+## Github
+  * Created a new GitHub repository page using the 'Code Institute Template'.
+  * Opened the new repository by clicking on the 'Gitpod' button.
+  * Installed the relevant apps and packages needed to deploy to HEROKU.
+
+## Django and Heroku
+
+Deployment of my project was scaffolded using the Code Institute's [Django Blog Cheatsheet](https://codeinstitute.s3.amazonaws.com/fst/Django%20Blog%20Cheat%20Sheet%20v1.pdf). Furthermore, the following steps were taken to deploy the project to Heroku from the GitHub repository:
+
+1. Create the Heroku App:
+    - Before creating the Heroku app make sure your project has the following files:
+        - requirements.txt to create this type the following within the terminal: **pip3 freeze > requirements.txt**.
+        - Procfile to create this type the following within the terminal: **python run.py > Procfile**.
+    - Select "Create new app" within Heroku.
+2. Attach the Postgres database:
+    - Search "Postgres" within the Resources tab and select the Heroku Postgres option.
+3. Create the settings.py file:
+    - In Heroku navigate to the Settings tab, click on Reveal Config Vars and copy the DATABASE_URL.
+    - Create a SECRET_KEY value within the Reveal Config Vars in Heroku.
+    - Add the DATABASE_URL value and your chosen SECRET_KEY variable.
+    - Run the following command in your terminal **python3 manage.py migrate**.
+    - Add the following sections to your settings.py file:
+        - STATICFILES_STORAGE
+        - STATICFILES_DIRS
+        - STATIC_ROOT
+        - MEDIA_URL
+        - DEFAULT_FILE_STORAGE
+        - TEMPLATES_DIR
+        - Update DIRS in TEMPLATES with TEMPLATES_DIR
+        - Update ALLOWED_HOSTS with ['app_name.heroku.com','localhost']
+4. Store Static and Media files in Amazon and Deploy to Heroku:
+    - Create a file named "Procfile" in the main directory and ass the following: [web: gunicorn project-name.wsgi].
+    - Login to Heroku within the terminal window using **heroku login -i**
+    - Run the following command in the terminal window: **heroku git:remote -a your_app_name_here**. By doing this you will link the app to your GidPod terminal.
+    - After linking the app you can deploy new versions to Heroku by running the command **git push heroku main**.
+  
+[Back to top ⇧](#supplement-store1)
+
+***
