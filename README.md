@@ -81,7 +81,7 @@ A simplistic favicon was created in the shape of a gin bottle, using simple line
 <img src="https://github.com/devicons/devicon/blob/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="Bootstrap logo" height="50px" width="50px" /> <img src="https://github.com/devicons/devicon/blob/master/icons/django/django-plain.svg" alt="Django logo" width="50px" height="50px" />
 - [Django](https://www.djangoproject.com/) -  Used in the development of this project. Main python Framework.
     - The following python modules were used on this project:
-    ```
+```
 asgiref==3.5.2
 backports.zoneinfo==0.2.1
 boto3==1.21.18
@@ -107,7 +107,7 @@ requests-oauthlib==1.3.1
 s3transfer==0.5.2
 sqlparse==0.4.2
 stripe==2.67.0
-    ```
+```
 
 ### PROGRAMS
 
