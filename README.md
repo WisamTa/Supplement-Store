@@ -19,6 +19,8 @@
 * [Deployment](#Deployment)
   * [Code](#Code)
   * [Acknowledgements](#Acknowledgements)
+* [Marketing](#Marketing)
+
 
 #### Project goals<br>
 
@@ -414,5 +416,6 @@ A robots.txt file was created to tell search engines where not to allowed go on 
   Disallow:
   Sitemap: YOUR_SITEMAP_URL
 ```
+
 
 
