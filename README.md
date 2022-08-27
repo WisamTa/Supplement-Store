@@ -389,3 +389,30 @@ To find the values of each key:
 
 To handle payments within the website ensure that you have set this up a guide on how this can be done can be found [here](https://stripe.com/docs/payments/accept-a-payment#web-collect-card-details).
 
+# Marketing
+
+## sitemap.xml
+***
+
+A sitemap was made to list the websites important URL's to ensure that search engines are able to easily navigate through the site and understand its structure. This was made using [XML-sitemaps.com](https://www.xml-sitemaps.com/) using the following steps:
+
+1. Paste the URL of the deployed site into XML-sitemaps.
+2. Download the XML sitemap file.
+3. Drag and drop this files into the projects root folder, and ensure it is labeled **sitemap.xml**
+
+***
+## robots.txt
+***
+
+A robots.txt file was created to tell search engines where not to allowed go on the site and increase the quality of the site, ultimetly improving the SEO rating. The following steps were taken to creat this:
+
+1. A file was added named **robots.txt**.
+2. The following code was written into this file, adding in your personalised sitemap url:
+
+```
+  User-agent: *
+  Disallow:
+  Sitemap: YOUR_SITEMAP_URL
+```
+
+
