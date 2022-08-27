@@ -65,12 +65,19 @@ while allowing the user to have all the information they require, and not leave 
 * I want the admin to be able to delete a product.
 * All these steps should be either using fixtures data or adding or delete manually 
 
+# Favicon
+
+A simplistic favicon was created in the shape of a gin bottle, using simple lines
+
+![Favicon Icon](https://github.com/WisamTa/Supplement-Store/blob/main/static/favicon/android-chrome-512x512.png)
+
 ## Technologies Used
 ### Languges<br>
 * [HTML5](https://en.wikipedia.org/wiki/HTML)
 * [CSS3](https://en.wikipedia.org/wiki/CSS)
 * [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
 * [Pyhton3](https://www.python.org/)
+<img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-plain-wordmark.svg" alt="HTML logo" width="50px" height="50px" /> <img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-plain-wordmark.svg" alt="CSS logo" width="50px" height="50px" /> <img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" alt="JavaScript logo" width="50px" height="50px" /> <img src="https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg" alt="Python logo" width="50px" height="50px" /> 
 ---
 ### Frameworks and Libraries<br>
 * [jQuery](https://jquery.com/)  
