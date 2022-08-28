@@ -18,7 +18,7 @@ def contact(request):
         contact_form = {
             'name': request.POST.get('name'),
             'email': request.POST.get('contact_email'),
-            'subject': request.POST.get('subject'),
+            'contact_as': request.POST.get('contact_as'),
             'message': request.POST.get('message')
             }
         subject = render_to_string(
