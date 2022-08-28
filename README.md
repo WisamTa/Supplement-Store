@@ -148,7 +148,7 @@ keep track of the project development by splitting tasks into smaller and more m
 * [L3dsellers](https://www.3dsellers.com/)
     * Sku Generater
 
-# The Vitamin Store - Testing
+# The Supplement-Store - Testing
 
 Back to my main README.md click [here](https://github.com/WisamTa/Supplement-Store/blob/main/README.md)
 <br>
@@ -184,7 +184,7 @@ The files can be found [here]()
 
 ### Testing User Stories
 #### User Stories Images
-* Can be found [here]()<br>
+* Can be found [here](https://github.com/WisamTa/Supplement-Store/tree/main/media/readme_images)<br>
 
 * [Back to Table of Content](#table-of-content)
 
