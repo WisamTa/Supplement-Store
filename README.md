@@ -147,6 +147,8 @@ keep track of the project development by splitting tasks into smaller and more m
     * used to generate a privacy policy.
 * [L3dsellers](https://www.3dsellers.com/)
     * Sku Generater
+* [TempMail](https://temp-mail.org/en/)
+    * Random E-mails Generator
 
 # The Supplement-Store - Testing
 
