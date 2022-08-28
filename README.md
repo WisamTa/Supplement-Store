@@ -145,10 +145,48 @@ keep track of the project development by splitting tasks into smaller and more m
     * Multi Device Website Mockup Generator was used to create the Mock up image in this README. 
 * [Privacy Policy](https://www.privacypolicygenerator.info/)
     * used to generate a privacy policy.
-* [Lighthouse](https://developers.google.com/web/tools/lighthouse)
-    * Used for performance review.
 * [L3dsellers](https://www.3dsellers.com/)
     * Sku Generater
+
+# The Vitamin Store - Testing
+
+Back to my main README.md click [here](https://github.com/WisamTa/Supplement-Store/blob/main/README.md)
+<br>
+
+
+## Table of Content
+# Testing
+* [Testing User Stories](#testing-user-stories)
+* [Manually Testing Functionality](#manually-testing-functionality)
+---
+
+### Validator Testing
+The website's was tested with following validators:
+
+### HTML Markup Validation Service
+*  I used [Html Checker](https://validator.w3.org/) to validate the html files.
+The files can be found [here]()
+
+### CSS Validation Service
+* I used [CSS Validation Service](https://jigsaw.w3.org/css-validator/) to validate the css files.
+The files can be found [here]()
+
+### JShint
+* I used [JShint](https://jshint.com/) to check the JavaScript files
+The files can be found [here]()
+
+### PEP8online
+* I used [PEP8online](http://pep8online.com/) to check the files
+The files can be found [here]()
+
+
+* [Back to Table of Content](#table-of-content)
+
+### Testing User Stories
+#### User Stories Images
+* Can be found [here]()<br>
+
+* [Back to Table of Content](#table-of-content)
 
 # Deployment
 
