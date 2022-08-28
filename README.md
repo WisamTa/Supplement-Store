@@ -184,7 +184,7 @@ The files can be found [here]()
 
 ### Testing User Stories
 #### User Stories Images
-* Can be found [here](https://github.com/WisamTa/Supplement-Store/main/media/readme_images)<br>
+* Can be found [here](https://github.com/WisamTa/Supplement-Store/main/media/readme_images/)<br>
 * [Products User Stories](https://github.com/WisamTa/Supplement-Store/blob/main/media/readme_images/produc-deatail.PNG)
 * [Products User Stories](https://github.com/WisamTa/Supplement-Store/blob/main/media/readme_images/product-added-to-bag.PNG)
 * [Products User Stories](https://github.com/WisamTa/Supplement-Store/blob/main/media/readme_images/products.PNG)
