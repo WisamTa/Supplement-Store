@@ -1,0 +1,62 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block extra_css %}
+    <link rel="stylesheet" href="{% static 'blog/blog.css' %}">
+{% endblock %}
+
+{% block content %}
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="blog-welcome-title my-4">Welcome to the blog!</h2>
+            </div>
+        </div>
+        <div class="row text-center">
+        <div class="col-12">
+            <a class="button new-post-button my-4" href="{% url 'add_post' %}">New Post
+                <i class="fas fa-plus-circle m-2"></i></a>
+        </div>
+        </div>
+        <div class="row">
+            {% for post in posts %}
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="card blog-card my-5">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <a href="{% url 'post_detail' post.slug %}" class="title-heading-small blog-title">
+                                    {{ post.title | truncatechars:15 | capfirst }}
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-text">
+                            <p class="blog-card-content product-trunc"> {{ post.content |capfirst }}</p>
+                            <div class="blog-content content">
+                                <p class="blog-p">By: <span class="blog-small">{{ post.author }},
+                                        {{ post.created_on|timesince }}
+                                        ago </span>
+                                </p>
+                                {% if post.comments.all|length == 0 %}
+                                    <p class="blog-p">Add
+                                        <a class="blog-add-comment-link" href="{% url 'post_detail' post.slug %}">
+                                            comment <i class="far fa-comments"></i> </a>
+                                    </p>
+                                {% elif post.comments.all|length == 1 %}
+                                    <p class="blog-p">See
+                                        <a class="blog-add-comment-link" href="{% url 'post_detail' post.slug %}">
+                                            {{ post.comments.all|length }} comment <i class="far fa-comments"></i> </a>
+                                    </p>
+                                {% else %}
+                                    <p class="blog-p">See all
+                                        <a class="blog-see-all-comment-link" href="{% url 'post_detail' post.slug %}">
+                                            {{ post.comments.all|length }} comments <i class="far fa-comments"></i></a>
+                                    </p>
+                                {% endif %}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+{% endblock %}

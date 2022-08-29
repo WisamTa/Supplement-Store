@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block extra_css %}
+    <link rel="stylesheet" href="{% static 'blog/blog.css' %}">
+{% endblock %}
+
+{% block content %}
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-12">
+                <h1 class="add-blog-title-heading my-3">Add A New Blog</h1>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-8 col-md-8 col-sm-8">
+                <div class="card add-new-post-box my-5">
+                    <div class="card-body">
+                        <form action="{% url 'add_post' %}" method="POST">
+                            {% csrf_token %}
+                            {{ form | crispy }}
+                            <div class="row">
+                                <div class="col-6">
+                                    <button class="btn submit-add-post-button" type="submit">Add Post</button>
+                                </div>
+                                <div class="col-6">
+                                    <a href="{% url 'blog' %}" class="btn cancel-add-post-button">
+                                        Cancel
+                                    </a>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block extra_css %}
+    <link rel="stylesheet" href="{% static 'blog/blog.css' %}">
+{% endblock %}
+
+{% block content %}
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-5 offset-4">
+                <h1 class="edit-blog-title-heading my-3">Edit a Blog Post</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-9 offset-2">
+                <div class="card my-5">
+                    <div class="card-body">
+                        <form action="{% url 'edit_post' post.slug %}" method="POST">
+                            {% csrf_token %}
+                            {{ form | crispy }}
+                            <div class="row">
+                                <div class="col">
+                                    <button class="btn edit-post-update-button" type="submit">Update Post</button>
+                                </div>
+                                <div class="col">
+                                    <a href="{% url 'post_detail' post.slug %}" class="btn cancel-post-update-button">
+                                        Cancel
+                                    </a>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

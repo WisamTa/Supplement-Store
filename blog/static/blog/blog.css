@@ -1,0 +1,266 @@
+/* blog page */
+
+/* truncate text if product name too long https: //css-tricks.com/flexbox-truncated-text/  */
+
+.product-trunc {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.blog-welcome-title {
+    background-color: #432818;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    border: 3px #000 solid !important;
+    border-radius: 3px;
+}
+
+.new-post-button {
+    background-color: #432818;
+    color: #fff;
+    margin: 10px;
+    padding: 5px;
+    text-transform: uppercase;
+    border: 3px #000 solid !important;
+    border-radius: 3px;
+}
+
+.new-post-button:hover {
+    color: #28a745;
+    text-decoration: none;
+}
+
+.blog-card {
+    margin: 10px;
+}
+
+.card-body {
+    background-color: #432818 !important;
+    text-align: center;
+}
+
+.blog-title {
+    color: #fff;
+}
+
+.blog-title:hover {
+    color: #28a745;
+    text-decoration: none;
+}
+
+.card-text {
+    background-color: #14591d;
+    padding: 10px;
+}
+
+.blog-add-comment-link,
+.blog-see-all-comment-link {
+    color: #FFFF2d;
+}
+
+.blog-add-comment-link:hover,
+.blog-see-all-comment-link:hover {
+    color: #28a745;
+    text-decoration: none;
+}
+
+/* post detail page */
+
+.back-to-homepage-button,
+.post-detail-edit-button,
+.post-detail-delete-button {
+    background-color: #432818;
+    color: #fff;
+    margin: 10px;
+    padding: 5px;
+    text-transform: uppercase;
+    border: 3px #000 solid !important;
+    border-radius: 3px;
+}
+
+.back-to-homepage-button:hover,
+.post-detail-edit-button:hover,
+.post-detail-delete-button:hover {
+    color: #28a745;
+    text-decoration: none;
+}
+
+.add-review-box {
+    background-color: #14591d;
+    padding: 10px;
+}
+
+.add-review-login-link {
+    color: #000;
+}
+
+.add-review-login-link:hover {
+    color: #FFFF2d;
+    text-decoration: none;
+}
+
+.submit-comment-button,
+.reset-comment-button {
+    background-color: #432818;
+    color: #fff;
+    text-transform: uppercase;
+    border: 3px #000 solid !important;
+    border-radius: 3px;
+}
+
+.reset-comment-button,
+.post-detail-delete-button {
+    float: right;
+}
+
+.submit-comment-button:hover,
+.reset-comment-button:hover {
+    color: #28a745;
+}
+
+.delete-blog-modal-button {
+    background-color: #dc3545;
+    color: #fff !important;
+    text-transform: uppercase !important;
+    border: 3px #000 solid;
+    float: right;
+}
+
+.delete-blog-modal-button:hover {
+    color: #ffc107 !important;
+}
+
+.blog-delete-modal {
+    background-color: #432818;
+    color: #fff;
+    text-transform: uppercase;
+    border: 3px #dc3545 solid;
+}
+
+.modal-header {
+    border-bottom: 1px #dc3545 solid;
+}
+
+.text-danger {
+    font-weight: bolder;
+}
+
+.modal-footer {
+    border-top: 1px #dc3545 solid;
+}
+
+.modal-header .close {
+    color: #dc3545;
+}
+
+.modal-header .close:hover {
+    color: #ffc107;
+}
+
+.blog-modal-delete-button {
+    background-color: #dc3545;
+    color: #fff !important;
+    border: 2px #000 solid;
+}
+
+a.text-danger:focus,
+a.text-danger:hover,
+.modal-delete-button:hover {
+    color: #ffc107 !important;
+}
+
+.blog-modal-cancel-button {
+    background-color: #14591d;
+    color: #fff !important;
+    text-transform: uppercase;
+    border: 2px #000 solid;
+}
+
+.blog-modal-cancel-button:hover {
+    background-color: #14591d;
+    color: #ffc107 !important;
+    border: 2px #000 solid;
+}
+
+/* add post page */
+
+.add-blog-title-heading {
+    background-color: #432818;
+    color: #fff;
+    font-size: 70px;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    border: 3px #000 solid;
+}
+
+.add-new-post-box {
+    opacity: 0.9;
+}
+
+.submit-add-post-button,
+.cancel-add-post-button {
+    background-color: #14591d;
+    color: #fff;
+    text-transform: uppercase;
+    border: 3px #000 solid !important;
+    border-radius: 3px;
+}
+
+.submit-add-post-button:hover,
+.cancel-add-post-button:hover {
+    color: #000;
+}
+
+/* edit blog post page */
+
+.edit-blog-title-heading {
+    background-color: #432818;
+    color: #fff;
+    font-size: 70px;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.edit-post-update-button,
+.cancel-post-update-button {
+    background-color: #14591d;
+    color: #fff;
+    text-transform: uppercase;
+    border: 3px #000 solid !important;
+    border-radius: 3px;
+}
+
+.edit-post-update-button:hover,
+.cancel-post-update-button:hover {
+    color: #000;
+}
+
+@media (max-width: 320px) {
+
+    /* blog page */
+
+    .blog-welcome-title {
+        font-size: 2rem;
+    }
+
+    /* add blog page */
+    .add-blog-title-heading {
+        font-size: 1.7rem;
+    }
+}
+
+@media (max-width: 576px) {
+
+    /* blog page */
+
+    .blog-card {
+        margin: 20px;
+    }
+}

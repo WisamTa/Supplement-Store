@@ -1,0 +1,134 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block extra_css %}
+    <link rel="stylesheet" href="{% static 'blog/blog.css' %}">
+{% endblock %}
+
+{% block extra_js %}
+    <!-- uni-form jquery  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Uniform.js/4.3.0/js/jquery.uniform.bundled.js"></script>
+{% endblock %}
+
+{% block content %}
+    <div class="container-fluid">
+        <div class="row my-4">
+            <div class="col-12">
+                <a href="{% url 'blog' %}" class="button back-to-homepage-button">
+                    <i class="fas fa-chevron-left"></i> Back to blog homepage</a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="card blog-card">
+                    <div class="card-body">
+                        <div class="card-title">
+                            <h1 class="title-heading-small blog-title">{{ post.title }}</h1>
+                        </div>
+                    </div>
+                    <div class="card-text blog-card-content">
+                        <p class="blog-card-content">
+                            {{ post.content | capfirst }}
+                        </p>
+                        <div class="blog-content content">
+                            <p class="blog-p">By: <span class="blog-small">{{ post.author }},
+                                    {{ post.created_on|timesince }}
+                                    ago </span></p>
+                        </div>
+                        {% if post.author == request.user %}
+                            <div class="row">
+                                <div class="col">
+                                    <a href="{% url 'edit_post' post.slug %}" class="btn post-detail-edit-button">Edit Post</a>
+                                </div>
+                                <div class="col">
+                                     <!-- Button trigger modal -->
+                                    <button type="button" class="btn text-danger delete-blog-modal-button" data-toggle="modal" data-target="#delete-{{product.sku}}">
+                                        Delete
+                                    </button>
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="delete-{{product.sku}}" tabindex="-1" role="dialog"
+                                    aria-labelledby="deleteBlogTitle" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered" role="document">
+                                        <div class="modal-content blog-delete-modal">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="deleteBlogTitle">Delete
+                                                    {{ post.title }} blog</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <h4>
+                                                    Are you sure you want to delete
+                                                    <span> {{ post.title }}?</span>
+                                                </h4>
+                                                <p class="text-danger">This action cannot be undone!!!</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <a class="btn text-danger blog-modal-delete-button" href="{% url 'delete_post' post.slug %}">Delete</a>
+                                                <button type="button" class="btn btn-secondary blog-modal-cancel-button" data-dismiss="modal">Cancel</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        {% else %}
+                            <div class="row">
+                                <div class="col">
+                                    <h4 class="add-review-box">
+                                        Author, please <a class="add-review-login-link" href="{% url 'account_login' %}">log in</a> to edit this post.</h4>
+                                </div>
+                            </div>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card mb-5 comments">
+                    <div class="card-body">
+                        <div class="card-title">
+                            <h2 class="title-heading-small">Comments about {{ post.title }}</h2>
+                        </div>
+                    </div>
+                    <div class="card-text py-3">
+                        {% for comment in post.comments.all %}
+                            <article class="media">
+                                <div class="media-content">
+                                    <div class="content">
+                                        <p class="blog-content">
+                                            {{ comment.comment }}
+                                        </p>
+                                        <p>comment by: <span class="blog-small">{{ comment.comment_author }}
+                                                {{ comment.date_added|timesince }} ago</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </article>
+                        {% empty %}
+                            <div class="my-4">
+                                {{ post.title }} has no replies yet...
+                            </div>
+                        {% endfor %}
+                        <form method="post" action=".">
+                            {% csrf_token %}
+                            {{ form|crispy }}
+                            <div class="field">
+                                <div class="control">
+                                    <div class="row">
+                                        <div class="col">
+                                            <button class="btn submit-comment-button">Submit</button>
+                                        </div>
+                                        <div class="col">
+                                            <button type="reset" class="btn reset-comment-button">Reset</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
