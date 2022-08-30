@@ -162,8 +162,6 @@ Back to my main README.md click [here](https://github.com/WisamTa/Supplement-Sto
 ## Table of Content
 
 
-
-
 # Deployment
 
 ## Github
@@ -418,7 +416,11 @@ Customers who are buying products from Supplement Store should be able to:
 - Easily navigate and search for products they wish to purchase.
 
 ## sitemap.xml
-***
+
+* [Facebook](https://github.com/WisamTa/Supplement-Store/blob/main/media/readme_images/facebook.PNG)
+* [Facebook](https://github.com/WisamTa/Supplement-Store/blob/main/media/readme_images/facebook.PNG)
+
+  * Facebook Business page 
 
 A sitemap was made to list the websites important URL's to ensure that search engines are able to easily navigate through the site and understand its structure. This was made using [XML-sitemaps.com](https://www.xml-sitemaps.com/) using the following steps:
 
