@@ -417,11 +417,6 @@ Customers who are buying products from Supplement Store should be able to:
 
 ## sitemap.xml
 
-* [Facebook](https://github.com/WisamTa/Supplement-Store/blob/main/media/readme_images/facebook.PNG)
-* [Facebook](https://github.com/WisamTa/Supplement-Store/blob/main/media/readme_images/facebook.PNG)
-
-  * Facebook Business page 
-
 A sitemap was made to list the websites important URL's to ensure that search engines are able to easily navigate through the site and understand its structure. This was made using [XML-sitemaps.com](https://www.xml-sitemaps.com/) using the following steps:
 
 1. Paste the URL of the deployed site into XML-sitemaps.
@@ -443,5 +438,10 @@ A robots.txt file was created to tell search engines where not to allowed go on 
   Sitemap: YOUR_SITEMAP_URL
 ```
 
+## Facebook
 
+* [Facebook](https://github.com/WisamTa/Supplement-Store/blob/main/media/readme_images/facebook.PNG)
+* [Facebook](https://github.com/WisamTa/Supplement-Store/blob/main/media/readme_images/facebook.PNG)
+
+  * Facebook Business page 
 
