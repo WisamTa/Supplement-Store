@@ -406,8 +406,6 @@ The config/environment variables should be set up as follows:
 
 | Key                    | Value                      |
 | ---------------------- |--------------------------- |
-| PORT                   | 8000                       |
-| IP                     | 0.0.0.0                    |
 | SECRET_KEY             | YOUR_SECRET_KEY            |
 | STRIPE_PUBLIC_KEY      | STRIPE_PUBLIC_KEY          |
 | STRIPE_SECRET_KEY      | YOUR_STRIPE_SECRET_KEY     |
@@ -438,6 +436,18 @@ To find the values of each key:
 To handle payments within the website ensure that you have set this up a guide on how this can be done can be found [here](https://stripe.com/docs/payments/accept-a-payment#web-collect-card-details).
 
 # Marketing
+
+# # Business Model
+
+The business model used for the Supplement store would be a B2C (Business to Customer), this is due to the business selling products directly to the customer through the platform. The target market for these products are users:
+
+- Who have access to a credir card.
+- Looking to purchase popular food supplement.
+
+Customers who are buying products from Supplement Store should be able to:
+
+- Easily view and purchase  products from the site.
+- Easily navigate and search for products they wish to purchase.
 
 ## sitemap.xml
 ***
