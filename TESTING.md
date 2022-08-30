@@ -166,9 +166,30 @@ The files can be found [here]()
 | Contact site owner/admin | Abilaty to query site owner/admin about anything  | Send message via contact form | meaasge sent and recived by site owner/admin| Pass |
 
 ##### Blog
-    * Add Product
+    * Add Post
 
 | Feature        | Expected           | Testing  | Result | Pass/Fail |
 | ------------- |-------------| -----|  ---------- | :----:|
-| Add Products | all user/site owner is allowed to visit add post page | Log in as non-superuser and attempt to access /blog/add/ edit, comment and delete | Redirect to home page, error message displayed "Sorry, only store owners can do that." | Pass |
-| Form Validation | Required fields must be completed to add the product  | Attempt to add product without filling in a required field | Error message "Please fill in this field" | Pass |
+| Add Post | all user/site owner is allowed to visit add post page | Log in as non-superuser and attempt to access /blog/add/ edit, comment and delete | Redirect to post_detail." | Pass |
+| Form Validation | Required fields must be completed to add the post  | Attempt to add a post without filling in a required field | Error message "Please fill in this field" | Pass |
+
+    * Add Comment
+
+| Feature        | Expected           | Testing  | Result | Pass/Fail |
+| ------------- |-------------| -----|  ---------- | :----:|
+| Add comment | all user/site owner is allowed to visit add a comment | Log in as non-superuser or a super user and attempt to  comment  | Redirect to post_detail." | Pass |
+| Form Validation | Required fields must be completed to comment on a post  | Attempt to add a comment without filling in a required field | Error message "Please fill in this field" | Pass |
+
+    * Delete Post
+
+| Feature        | Expected           | Testing  | Result | Pass/Fail |
+| ------------- |-------------| -----|  ---------- | :----:|
+| Delete a post | all user/site owner is allowed to visit and delete thier own posts  | Log in as non-superuser or a super user and attempt to  delete  | a message "ARE YOU SURE YOU WANT TO DELETE "title"?
+THIS ACTION CANNOT BE UNDONE!!", press delete and redirect to blog | Pass |
+
+
+    * Edit Post
+
+| Feature        | Expected           | Testing  | Result | Pass/Fail |
+| ------------- |-------------| -----|  ---------- | :----:|
+| Edit a post | all user/site owner is allowed to visit and edit thier own posts  | Log in as non-superuser or a super user and attempt to  edit   | "You are edeting "Title" Redirect to post_detail." | Pass |
