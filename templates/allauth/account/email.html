@@ -1,11 +1,14 @@
-% extends "account/base.html" %}
+{% extends "account/base.html" %}
 
 {% load i18n %}
 
 {% block head_title %}{% trans "Account" %}{% endblock %}
 
-{% block content %}
-    <h1>{% trans "E-mail Addresses" %}</h1>
+{% block inner_content %}
+<hr>
+<h2 class="logo-font mb-4">{% trans "E-mail Addresses" %}</h2>
+<hr>
+
 {% if user.emailaddress_set.all %}
 <p>{% trans 'The following e-mail addresses are associated with your account:' %}</p>
 
@@ -57,7 +60,7 @@
 
 
 {% block extra_body %}
-<script type="text/javascript">
+<script>
 (function() {
   var message = "{% trans 'Do you really want to remove the selected e-mail address?' %}";
   var actions = document.getElementsByName('action_remove');
