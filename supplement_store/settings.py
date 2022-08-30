@@ -50,8 +50,6 @@ INSTALLED_APPS = [
     'contact',
     'reviews',
     'blog',
-
-     # Other
     'crispy_forms',
     'storages',
 ]
@@ -133,7 +131,6 @@ else:
             'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
         }
     }
-
 
 
 # Password validation
