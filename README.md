@@ -440,8 +440,8 @@ A robots.txt file was created to tell search engines where not to allowed go on 
 
 ## Facebook
 
-* [Facebook](https://github.com/WisamTa/Supplement-Store/blob/main/media/readme_images/facebook.PNG)
-* [Facebook](https://github.com/WisamTa/Supplement-Store/blob/main/media/readme_images/facebook.PNG)
+* ![Facebook](https://github.com/WisamTa/Supplement-Store/blob/main/media/readme_images/facebook.PNG)
+* ![Facebook](https://github.com/WisamTa/Supplement-Store/blob/main/media/readme_images/facebook.PNG)
 
   * Facebook Business page 
 
