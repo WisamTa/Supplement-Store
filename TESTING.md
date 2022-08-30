@@ -153,8 +153,10 @@ The files can be found [here]()
 | Feature        | Expected           | Testing  | Result | Pass/Fail |
 | ------------- |-------------| -----|  ---------- | ---- |
 | All reviews visible | Review section on product detail page show all reviews for the specific product | Open produt detail page and view reviews | Reviews visible | Pass |
-| Add review | Only logged in users are allowed to add a review | Log out and attempt to add a review | User will se "Create an account or login to leave a review". | Pass |
+| Add review | Only logged in users are allowed to add a review | Log out and attempt to add a review | User will se "Create an account or login to leave a review". | Pass |  
 
+   * Here I did not add delete review for the customer but to ensure that this requirement  "at least one UI element on the front end, which allows either admin or regular users to delete records in the database without having to access the admin panel."
+   is fullfiled I created the blog app and there the customer can edite, delete and comment with the need of the admin.
 
 ##### Contact
     * Contact
@@ -162,3 +164,11 @@ The files can be found [here]()
 | Feature        | Expected           | Testing  | Result | Pass/Fail |
 | ------------- |-------------| -----|  ---------- | :----:|
 | Contact site owner/admin | Abilaty to query site owner/admin about anything  | Send message via contact form | meaasge sent and recived by site owner/admin| Pass |
+
+##### Blog
+    * Add Product
+
+| Feature        | Expected           | Testing  | Result | Pass/Fail |
+| ------------- |-------------| -----|  ---------- | :----:|
+| Add Products | all user/site owner is allowed to visit add post page | Log in as non-superuser and attempt to access /blog/add/ edit, comment and delete | Redirect to home page, error message displayed "Sorry, only store owners can do that." | Pass |
+| Form Validation | Required fields must be completed to add the product  | Attempt to add product without filling in a required field | Error message "Please fill in this field" | Pass |

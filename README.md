@@ -440,12 +440,19 @@ A robots.txt file was created to tell search engines where not to allowed go on 
 
 ## Facebook
 
-* ![Facebook](https://github.com/WisamTa/Supplement-Store/blob/main/media/readme_images/facebook.PNG)
-* ![Facebook](https://github.com/WisamTa/Supplement-Store/blob/main/media/readme_images/facebook.PNG)
-
   * Facebook Business page 
 
-## Bugs
+* ![Facebook](https://github.com/WisamTa/Supplement-Store/blob/main/media/readme_images/facebook.PNG)
+* ![Facebook](https://github.com/WisamTa/Supplement-Store/blob/main/media/readme_images/facebook.PNG)
+
+
+## Bugs unsolved
 * [Mailchimp]
  While Trying to start a mailchimp account the website had some difficulties with customers so I could not set up newsletter at the momenet 
- * [MAilchimp]() 
+ * ![MAilchimp](https://github.com/WisamTa/Supplement-Store/blob/main/media/readme_images/mailchimp1.PNG) 
+ * ![MAilchimp](https://github.com/WisamTa/Supplement-Store/blob/main/media/readme_images/mailchimp3.PNG) 
+ * ![MAilchimp](https://github.com/WisamTa/Supplement-Store/blob/main/media/readme_images/mailchimp4.PNG) 
+ * ![MAilchimp](https://github.com/WisamTa/Supplement-Store/blob/main/media/readme_images/rese2.PNG) 
+ * ![MAilchimp](https://github.com/WisamTa/Supplement-Store/blob/main/media/readme_images/session.PNG) 
+
+## Bugs solved

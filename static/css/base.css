@@ -328,6 +328,22 @@ input[name='q']::placeholder {
     .increment-qty, .decrement-qty {
         padding: .25rem .5rem !important;
     }
+
+        /* blog page */
+
+    .blog-welcome-title {
+            font-size: 2rem;
+    }
+    
+        /* add blog page */
+    .add-blog-title-heading {
+            font-size: 1.7rem;
+    }
+        /* blog page */
+
+    .blog-card {
+            margin: 20px;
+    }
 }
 
 a:hover {
