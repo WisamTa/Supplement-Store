@@ -27,7 +27,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato&family=Montserrat:wght@100&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="{% static 'css/base.css' %}">
-        <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7_dtp.css" rel="stylesheet" type="text/css">-->
+        <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7_dtp.css" rel="stylesheet" type="text/css">
 
          <!-- end bootstarp CSS -->
          <!-- favicon-->
@@ -184,35 +184,53 @@
     {% endblock %}
 
     <!-- Footer -->
-  <footer class="container-wrapper">
-    <div class="container quotes-container content-container">
-      <section class="footer">
-        <div class="row">
-          <div class="col-12 page-header mb-4">
-            <h2 class="text-uppercase">Stay in touch:</h2>
-            <hr class="block-divider block-divider--short">
+    <div class="container-fluid bg-white p-4">
+        <div class="row text-center pink-background-email">
+          <div class="col-12 text-blue">
+            <div class="text-center pt-4 p-2" id="mc_embed_signup_email">
+              <form
+                action=""
+                method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
+                target="_blank" novalidate>
+                <div id="mc_embed_signup_scroll">
+                  <i class="fa-solid fa-envelope-open-text subscribe-icon"></i>
+                  <h2 class="pt-2 delivery-text-header">Enter your Email</h2>
+                  <div class="mc-field-group">
+                    <label for="mce-EMAIL" class="mt-2 mb-2">Subscribe for exclusive promotions, deals and offers!</label>
+                    <div class="row text-center">
+                      <div class="col-sm-0 col-md-3"></div>
+                      <div class="col-sm-12 col-md-6 mb-4 mt-4">
+                        <input type="email" name="EMAIL" class="required email input-email mb-2 p-2" id="mce-EMAIL" placeholder="Enter your email here...">
+                        <label for="submit-email">Sign up now for updates on all our offers</label>
+                        <div class="optionalParent">
+                          <div class="clear foot text-center">
+                            <input type="submit" value="Sign Up" name="subscribe" class="text-center" id="submit-email">
+                            <i class="fa-solid fa-arrow-right"></i>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-sm-0 col-md-3"></div>
+                      <div id="mce-responses" class="clear foot">
+                        <div class="response" id="mce-error-response" style="display:none"></div>
+                        <div class="response" id="mce-success-response" style="display:none"></div>
+                      </div>
+                      <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                      <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
+                          name="b_f1aacedf9c1d9cd972b2746b3_ed76271233" tabindex="-1"></div>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <!--End mc_embed_signup-->
           </div>
-       </div>
-       <div class="row">
-         <div class="col-12 col-md-6">
-           <h3>Social</h3>
-           <p>Keep up to date with all our latest offers</p>
-           <a href="#" target="_blank"><i class="fab fa-facebook-square"></i> Follow us on Facebook!</a>
-         </div>
-         <div class="col-12 col-md-6">
-           <h2>Subscribe!</h2>
-           <p>Get exclusive offers and discount codes by subscribing to our monthly newsletter</p>
-            Mailchimp signup form here 
-         </div>
-       </div>
-     </section>
-   </div>
- </footer>-->
+        </div>
+      </div>
 <!-- /.footer -->
 
     <footer class="footer mt-auto py-3">
         <ul>
-            <li class="educational-purposes-text">this site was made for educational purposes only</li>
+            <li class="educational-purposes-text">This site was made for educational purposes only</li>
         </ul>
         <ul class="social-media-icons">
             <li>
