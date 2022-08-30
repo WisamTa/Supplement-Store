@@ -358,6 +358,68 @@ text-decoration: underline;
     padding-bottom: 50px;
 }
 
+/*................................................Mailchimp */
+
+#mc_embed_signup_email {
+    background: #fff;
+    clear: left;
+    font: 14px Helvetica, Arial, sans-serif;
+    border: solid 2px #1c3a42;
+}
+
+#mce-EMAIL {
+    width: 100%;
+    border: solid 2px #1c3a42;
+}
+
+.email-text {
+    font-size: 30px;
+}
+
+.pink-background-email {
+    background-color: #e8a79d9c;
+    padding: 30px;
+}
+
+.text-center {
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+}
+
+.subscribe-icon {
+    font-size: 50px;
+}
+
+.input-email {
+    border: solid 2px white;
+    border-radius: 5px;
+    float: right;
+    height: 50px;
+}
+
+.subscribe-button {
+    background-color: #e8a79d9c;
+    border: solid 2px #1c3a42;
+    border-radius: 5px;
+    color: #1c3a42;
+    height: 50px;
+}
+
+.border-allauth {
+    border: solid 2px #1c3a42;
+    border-radius: 5px;
+}
+
+#sign_up_image {
+    height: 300px;
+    border: solid white 2px;
+    overflow: hidden;
+    opacity: 0.75;
+    background-size: cover;
+    background-position: center;
+}
+
 /* Footer */
 
 .footer {
