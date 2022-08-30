@@ -136,6 +136,9 @@ keep track of the project development by splitting tasks into smaller and more m
 
 ### Other
 
+* This video help me when I migrated the new app successfuly but could not find it on the live site due to a programming error
+  * [Here](https://www.youtube.com/watch?v=6DI_7Zja8Zc)  
+
 #### GitPod
 
 [GitPod](https://gitpod.io) was used as an IDE whilst coding this site.
