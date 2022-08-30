@@ -160,41 +160,9 @@ Back to my main README.md click [here](https://github.com/WisamTa/Supplement-Sto
 
 
 ## Table of Content
-# Testing
-* [Testing User Stories](#testing-user-stories)
-* [Manually Testing Functionality](#manually-testing-functionality)
----
-
-### Validator Testing
-The website's was tested with following validators:
-
-### HTML Markup Validation Service
-*  I used [Html Checker](https://validator.w3.org/) to validate the html files.
-The files can be found [here]()
-
-### CSS Validation Service
-* I used [CSS Validation Service](https://jigsaw.w3.org/css-validator/) to validate the css files.
-The files can be found [here]()
-
-### JShint
-* I used [JShint](https://jshint.com/) to check the JavaScript files
-The files can be found [here]()
-
-### PEP8online
-* I used [PEP8online](http://pep8online.com/) to check the files
-The files can be found [here]()
 
 
-* [Back to Table of Content](#table-of-content)
 
-### Testing User Stories
-#### User Stories Images
-* Can be found [here](https://github.com/WisamTa/Supplement-Store/tree/main/media/readme_images)<br>
-* [Products User Stories](https://github.com/WisamTa/Supplement-Store/blob/main/media/readme_images/produc-deatail.PNG)
-* [Products User Stories](https://github.com/WisamTa/Supplement-Store/blob/main/media/readme_images/product-added-to-bag.PNG)
-* [Products User Stories](https://github.com/WisamTa/Supplement-Store/blob/main/media/readme_images/products.PNG)
-
-* [Back to Table of Content](#table-of-content)
 
 # Deployment
 
