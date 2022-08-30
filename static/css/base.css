@@ -269,7 +269,7 @@ input[name='q']::placeholder {
 
 
 /* fixed top navbar only on medium and up */
-@media (min-width: 320px) {
+@media (min-width: 1280) {
     .fixed-top-desktop-only {
         position: fixed;
         top: 0;
