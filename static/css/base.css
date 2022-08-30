@@ -357,3 +357,29 @@ text-decoration: underline;
     width: 60%;
     padding-bottom: 50px;
 }
+
+/* Footer */
+
+.footer {
+    background-color: #432818;
+    text-align: center;
+    border-top: 3px black solid !important;
+}
+
+.footer li,
+.footer a {
+    color: #fff;
+    display: inline;
+}
+
+.footer a:hover {
+    color: #FFFF2D;
+} 
+
+a:hover {
+    text-decoration: none;
+}
+
+.social-media-icons {
+    font-size: 48px !important;
+}
