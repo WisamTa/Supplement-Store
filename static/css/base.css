@@ -46,6 +46,11 @@ body {
     border: 1px solid black;
 }
 
+.mobile-navbar {
+    background-color: #abe6ea;
+}
+
+
 .btn-outline-black:hover,
 .btn-outline-black:active,
 .btn-outline-black:focus {
