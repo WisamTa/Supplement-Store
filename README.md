@@ -164,6 +164,10 @@ keep track of the project development by splitting tasks into smaller and more m
 * [Techsin](https://techsini.com/multi-mockup/index.php)
     * The mockup Screenshot
 
+### Database Design
+
+![Database Design](readme_images/database_schema/database_schema.png)
+
 # The Supplement-Store - Testing
 
 Back to my main README.md click [here](https://github.com/WisamTa/Supplement-Store/blob/main/README.md)
