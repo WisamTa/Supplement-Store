@@ -241,26 +241,3 @@ a.text-danger:hover,
 .cancel-post-update-button:hover {
     color: #000;
 }
-
-@media (max-width: 320px) {
-
-    /* blog page */
-
-    .blog-welcome-title {
-        font-size: 2rem;
-    }
-
-    /* add blog page */
-    .add-blog-title-heading {
-        font-size: 1.7rem;
-    }
-}
-
-@media (max-width: 576px) {
-
-    /* blog page */
-
-    .blog-card {
-        margin: 20px;
-    }
-}
