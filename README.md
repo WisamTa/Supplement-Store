@@ -6,7 +6,7 @@ The user will be able to navigate easily throughout the site, and the site will 
 
 ## FINAL DESIGN
 
-![Final project image]()
+![Final project image](https://github.com/WisamTa/Supplement-Store/blob/main/media/readme_images/FireShot%20Capture%20002%20-%20Multi%20Device%20Website%20Mockup%20Generator%20-%20techsini.com.png)
 ## Table of Content
 * [User Experience Design (UX)](#User-Experience-Design)
     * [The Strategy Plane](#The-Strategy-Plane)
@@ -161,6 +161,8 @@ keep track of the project development by splitting tasks into smaller and more m
     * Sku Generater
 * [TempMail](https://temp-mail.org/en/)
     * Random E-mails Generator
+* [Techsin](https://techsini.com/multi-mockup/index.php)
+    * The mockup Screenshot
 
 # The Supplement-Store - Testing
 

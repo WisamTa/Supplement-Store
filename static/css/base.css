@@ -376,7 +376,7 @@ text-decoration: underline;
 
 /*................................................Mailchimp */
 
-/*#mc_embed_signup_email {
+#mc_embed_signup_email {
     background: #fff;
     clear: left;
     font: 14px Helvetica, Arial, sans-serif;
