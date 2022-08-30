@@ -445,3 +445,7 @@ A robots.txt file was created to tell search engines where not to allowed go on 
 
   * Facebook Business page 
 
+## Bugs
+* [Mailchimp]
+ While Trying to start a mailchimp account the website had some difficulties with customers so I could not set up newsletter at the momenet 
+ * [MAilchimp]() 
