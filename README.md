@@ -1,3 +1,12 @@
+[Here is a link to the live final project](https://supplement-store1.herokuapp.com/)
+## INITIAL IDEA
+
+My initial idea behind Supplement Store is to make an eCommerce site about food supplement, where anyone will be able to purchase their desirable goods
+The user will be able to navigate easily throughout the site, and the site will be fully accessible for all users.
+
+## FINAL DESIGN
+
+![Final project image]()
 ## Table of Content
 * [User Experience Design (UX)](#User-Experience-Design)
     * [The Strategy Plane](#The-Strategy-Plane)
