@@ -78,10 +78,110 @@ while allowing the user to have all the information they require, and not leave 
 
 # Favicon
 
-A simplistic favicon was created in the shape of a gin bottle, using simple lines
+A simplistic favicon was created in the shape of a S letter, using simple lines
 
 ![Favicon Icon](https://github.com/WisamTa/Supplement-Store/blob/main/static/favicon/android-chrome-512x512.png)
 
+### Features Implemented
+##### Create Profile
+* Users are able to:
+  * Create a profile to save their orders and personal information
+  * Confirm their details are correct via email verification
+  * Store details for faster checkout
+  
+
+##### Log in to Profile
+* Users are able to:
+  * Log in to profile to see their orders and personal information
+  * Edit personal information if required
+  
+
+##### Products Page
+* Users are able to:
+  * Products displayed and searchable to all users.
+  * Sort products by A-Z, Name, Category, Price, Rating.
+  * Price of product
+  * See rating of product
+  
+
+##### Product Details Page
+* Users are able to:
+  * Click the products to find out more information including
+  * Name,  price, SKU, category, ratings
+  * Add products to bag to buy
+  * See reviews of products and also review the products if logged in
+
+* Super users are able to:
+  * Add, edit and delete products
+  * Delete reviews
+  
+
+##### Products Management
+* If the user is a super user they can:
+  * Add a product and image of product
+  * Edit a product
+  * Delete a Product
+
+##### Bag
+* Users are able to:
+  * Adjust number of products in bag if they require
+  * Find out delivery costs
+  * Find out how much more they need to spend to get free delivery
+  * Clearly see the total of their items by quantity and grand total
+  
+
+##### Checkout
+* Users can:
+  * Save time as personal details pulled from profile page if user is logged in
+  * Save their delivery information to their profile
+  * Clearly see how much they will be charged for their items and delivery
+  
+
+* Logged in users can:
+  * Add a Review
+  
+ ##### Navigation
+
+Header
+
+* All users can:
+  * Navigate to home, all products, all categories, bag pages, contact page, Faq page
+
+* Users logged in can access:
+  * Profile pages, review page
+
+* Users not logged in can:
+  * Access log in and register pages
+
+   ##### Navigation
+Bolg
+
+  * All user can:
+   * Creat a post comment and delete 
+
+   ### Features For Furher Implementation 
+   * Adding functionality for the most viewd or most popuale products
+
+
+### Error Pages
+
+#### 400.html
+
+ * 400 page created to redirect users back to the main site in case of an bad request error.
+
+
+#### 403.html
+
+ * 403 page created to redirect users back to the main site in case they try to access a page they are not authorised to
+
+#### 404.html
+
+ * 404 page created to redirect users back to the main site in case of an error
+
+
+#### 500.html
+
+ * 500 error page created to redirect users to the main site after a server error
 
 ### The Skeleton Plane
 #### Wireframes
@@ -441,6 +541,22 @@ Customers who are buying products from Supplement Store should be able to:
 - Easily view and purchase  products from the site.
 - Easily navigate and search for products they wish to purchase.
 
+
+# Search Engine Optimization
+
+The site was optimized by careful selection of keywords. The following steps were taken to do this:
+
+1. The entire table consists of important relevant topics based upon my initial understanding of the business.
+2. Using these topics a 'brain dump' of keywords was made orientated around common topics and themes within the business.
+
+
+## SEO Implementations in HTML
+  - Words/phrases included within semantic HTML elements were optimized using the keywords above.
+  - Careful consideration was given to the words chosen to avoid 'keyword stuffing'.
+  - Keywords were used within links, urls and aria labels.
+  - Social network links include **rel="noopener"** to not affect the assessment of the webpage.
+  - External reliable links were included within the site to improve SEO, these include:
+  
 ## sitemap.xml
 
 A sitemap was made to list the websites important URL's to ensure that search engines are able to easily navigate through the site and understand its structure. This was made using [XML-sitemaps.com](https://www.xml-sitemaps.com/) using the following steps:
@@ -480,5 +596,22 @@ A robots.txt file was created to tell search engines where not to allowed go on 
  * ![MAilchimp](https://github.com/WisamTa/Supplement-Store/blob/main/media/readme_images/mailchimp4.PNG) 
  * ![MAilchimp](https://github.com/WisamTa/Supplement-Store/blob/main/media/readme_images/rese2.PNG) 
  * ![MAilchimp](https://github.com/WisamTa/Supplement-Store/blob/main/media/readme_images/session.PNG) 
-
+ * I tried to copy the code for css and html and left  js for the moment untill this bug is fixed, I connected tutorial support for this matter and could not assist.
+ *  also the project functionalities work just fine and tested but I have an issue with media query for the shopping bag and blog app, on blog new post is hidden on larg screen with the welcoming card but on mobil and small screen worked just fine, I tried to minuplate the media query but no thing to be really helpful, otherwise all the requiremnts for passing are satified. 
+* I mocked up the final design photo whitout newsletter code and uploaded the photo to be more orginized for useres and to have nicer view.  
 ## Bugs solved
+
+* During the whole project I had so many bugs solved with the help of our fellows on Slack and tutor support
+but my biggest one was solved with the help of a tutorial i found on youtube, I had to log in to heoku cli from gitpod and migrate from there. I connected tutorial support for this matter and could not assist,
+
+* also the project functionalities work just fine and tested but I have an issue with media query for the shopping bag and blog app, on blog new post is hidden on larg screen with the welcoming card but on mobil and small screen worked just fine, I tried to minuplate the media query but no thing to be really helpful 
+
+
+### **Acknowledgements**<br>
+* My Friend Ivan M Ulysses that I met in on of code institue hachathons for his great advice and feedback, 
+* My fellow student on Slack for thier quick answers and thier helful question 
+* Friends and family for testing the site, and giving me feedback.
+
+
+
+[Back to Table of Content](#table-of-content)
