@@ -89,6 +89,10 @@ A simplistic favicon was created in the shape of a gin bottle, using simple line
 * Tablet size wireframes can be viewed [here](https://github.com/WisamTa/Supplement-Store/tree/main/docs/tablet_wireframes)<br>
 * Mobile size wireframes can be viewed [here](https://github.com/WisamTa/Supplement-Store/tree/main/docs/mobile_wirfreames)<br>
 
+### Database Design
+
+![Database Design](https://github.com/WisamTa/Supplement-Store/blob/main/media/readme_images/database_schema%20(2).png)
+
 ## TECHNOLOGIES
 
 ### LANGUAGES
