@@ -82,6 +82,8 @@ A simplistic favicon was created in the shape of a gin bottle, using simple line
 
 ![Favicon Icon](https://github.com/WisamTa/Supplement-Store/blob/main/static/favicon/android-chrome-512x512.png)
 
+
+
 ## TECHNOLOGIES
 
 ### LANGUAGES
