@@ -83,6 +83,11 @@ A simplistic favicon was created in the shape of a gin bottle, using simple line
 ![Favicon Icon](https://github.com/WisamTa/Supplement-Store/blob/main/static/favicon/android-chrome-512x512.png)
 
 
+### The Skeleton Plane
+#### Wireframes
+* Desktop size wireframes can be viewed [here](https://github.com/WisamTa/Supplement-Store/tree/main/docs/desktop_wireframes)<br>
+* Tablet size wireframes can be viewed [here](https://github.com/WisamTa/Supplement-Store/tree/main/docs/tablet_wireframes)<br>
+* Mobile size wireframes can be viewed [here](https://github.com/WisamTa/Supplement-Store/tree/main/docs/mobile_wirfreames)<br>
 
 ## TECHNOLOGIES
 
