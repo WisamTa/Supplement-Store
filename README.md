@@ -1,4 +1,4 @@
-[Here is a link to the live final project](https://supplement-store1.herokuapp.com/)
+[Here is a link to the live final project](https://supplement-store-3yk1-onrender-com.onrender.com)
 ## INITIAL IDEA
 
 My initial idea behind Supplement Store is to make an eCommerce site about food supplement, where anyone will be able to purchase their desirable goods
